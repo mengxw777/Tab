@@ -2,7 +2,22 @@
  * time 2015-8-1 11:54:00
  * author Meng
  * 
- */
+ *下面是dom结构
+ *
+ *<div class="warp">
+ *      <div>
+ *         <a class="active" href="javascript:;"></a>
+ *          <a href="javascript:;"></a>
+ *          <a href="javascript:;"></a>
+ *      </div>
+ *      <ul>
+ *          <li></li>
+ *          <li style="display:none"></li>
+ *          <li style="display:none"></li>
+ *      </ul>
+ *</div>
+*/
+
 (function($) {
     var defaults = {
         auto: true, // 是否自动切换
